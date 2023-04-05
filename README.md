@@ -1,5 +1,3 @@
-[UNDER CONSTRUCTION]
-
 # Global load balancer architecture design in Azure
 
 The propose of this repo is to test different alternatives to have privat global load balancer across regions in Azure.
