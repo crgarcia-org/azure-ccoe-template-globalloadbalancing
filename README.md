@@ -9,6 +9,8 @@ The repo contains terraform templates, details instructions and GitHub Actions t
 
 ![architecture diagram](readme-media/architecture-bgp.png)
 
+This setup creates BGP sessions from the Spoke to the Hub in order there is a real-time global load balancer using a virtual IP address<p>
+Diagram Link: [Visio File](readme-media/architecture.vsdx)
 
 # Proposal 2: Front Door based solution
 ![architecture diagram](readme-media/architecture-frontdoor.png)
