@@ -1,0 +1,15 @@
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.exe
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.deps.json
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.runtimeconfig.json
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.dll
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.pdb
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfo.cs
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.dll
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\refint\ConsoleApp1.dll
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
+C:\gitrepos\github\crgarcia12\azure-global-load-balancer\app\src\ConsoleApp1\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
