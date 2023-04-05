@@ -32,10 +32,9 @@ variable "hub_vnet_name" {
   type = string
 }
 
-# [COST] 
-# variable "fw_vip" {
-#   type = string
-# }
+variable "fw_vip" {
+  type = string
+}
 
 ################################
 #        Module params

@@ -62,20 +62,19 @@ resource "azurerm_route_table" "udr" {
   resource_group_name           = var.resource_group_name
   disable_bgp_route_propagation = true
 
-  # [COST] 
-  # route {
-  #   name                   = "route1"
-  #   address_prefix         = "6.6.6.6/32"
-  #   next_hop_type          = "VirtualAppliance"
-  #   next_hop_in_ip_address = var.fw_vip
-  # }
+  route {
+    name                   = "route1"
+    address_prefix         = "6.6.6.6/32"
+    next_hop_type          = "VirtualAppliance"
+    next_hop_in_ip_address = var.fw_vip
+  }
 
-  # route {
-  #   name                   = "fwdfirewall"
-  #   address_prefix         = "0.0.0.0/0"
-  #   next_hop_type          = "VirtualAppliance"
-  #   next_hop_in_ip_address = var.fw_vip
-  # }
+  route {
+    name                   = "fwdfirewall"
+    address_prefix         = "0.0.0.0/0"
+    next_hop_type          = "VirtualAppliance"
+    next_hop_in_ip_address = var.fw_vip
+  }
 }
 
 #################################################

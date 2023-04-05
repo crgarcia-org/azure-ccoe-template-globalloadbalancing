@@ -12,8 +12,7 @@ module "spoke_vnet" {
   hub_vnet_rg_name    = var.hub_rg_name
   hub_vnet_id         = var.hub_vnet_id
   hub_vnet_name       = var.hub_vnet_name
-  # [COST] 
-  # fw_vip              = var.fw_vip
+  fw_vip              = var.fw_vip
 }
 
 module "spoke_vm" {
@@ -26,14 +25,13 @@ module "spoke_vm" {
   ssh_password        = var.ssh_password
 }
 
-# [COST] 
-# module "aks" {
-#   source              = "./aks"
-#   prefix              = var.prefix
-#   location            = var.location
-#   resource_group_name = azurerm_resource_group.spoke_rg.name
-#   resource_group_id   = azurerm_resource_group.spoke_rg.id
-#   subnet_id           = module.spoke_vnet.vnet_aks_subnet_id
-#   network_plugin_mode = var.aks_network_plugin_mode
-#   ebpf_data_plane     = var.aks_ebpf_data_plane
-# }
+module "aks" {
+  source              = "./aks"
+  prefix              = var.prefix
+  location            = var.location
+  resource_group_name = azurerm_resource_group.spoke_rg.name
+  resource_group_id   = azurerm_resource_group.spoke_rg.id
+  subnet_id           = module.spoke_vnet.vnet_aks_subnet_id
+  network_plugin_mode = var.aks_network_plugin_mode
+  ebpf_data_plane     = var.aks_ebpf_data_plane
+}
